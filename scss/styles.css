@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  background-color: #FFF;
+  line-height: 1.5; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+ul {
+  list-style-type: none; }
+
+.title-heading {
+  font-size: 26px;
+  font-weight: 400;
+  color: #335A7F;
+  padding-bottom: 10px; }
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 10px; }
+
+.sub-sub-heading {
+  font-size: 16px; }
+
+.paragraph {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: 300;
+  padding-bottom: 10px; }
+
+.bold {
+  font-weight: 700; }
+
+.italic {
+  font-style: italic; }
+
+.normal {
+  font-style: normal; }
+
+.small {
+  font-size: 14px; }
+
+.white {
+  color: #FFFFFF; }
+
+.triangle {
+  font-size: 12px; }
+
+hr {
+  margin: 5px auto 0 auto;
+  border: 0;
+  height: 0;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+.logo {
+  text-align: center; }
+
+.main-logo {
+  font-family: 'Times New Roman';
+  background-color: #335A7F;
+  color: #FFFFFF;
+  padding: 4px 4px;
+  font-size: 36px;
+  font-weight: 500; }
+
+.sub-logo {
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+/* .top-navigation */
+.top-navigation {
+  text-align: center; }
+
+ul {
+  text-align: left;
+  list-style: none;
+  display: inline;
+  margin: 0px;
+  padding: 0px; }
+
+ul li {
+  display: inline-block;
+  position: relative;
+  background: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  padding: 12px 17px;
+  margin-right: -5px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+ul li:hover {
+  color: #000000; }
+
+ul li ul {
+  position: absolute;
+  padding: 0;
+  left: 0;
+  top: 40px;
+  width: 120px;
+  display: none;
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+ul li ul li {
+  display: block;
+  color: black;
+  background: #ffffff; }
+
+ul li ul li:hover {
+  background: #F0F0F0; }
+
+ul li:hover ul {
+  display: block;
+  visibility: visible; }
+
+/* END of top navigation */
+.footer {
+  height: auto;
+  padding: 10px 15px 10px 15px;
+  background: #335A7F;
+  color: #FFFFFF; }
+  .footer .footer-container {
+    position: relative; }
+  .footer .footer-logo {
+    position: absolute;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 100; }
+    .footer .footer-logo .footer-logo-heading {
+      font-family: 'Times New Roman';
+      font-weight: 300; }
+  .footer .footer-contact {
+    text-align: right;
+    font-weight: 300; }
+  .footer .contact-info {
+    padding-bottom: 10px; }
+  .footer .contact-info.phone {
+    padding-top: 15px; }
+  .footer .contact-info.email {
+    color: #FFFFFF; }
+  .footer .contact-info .underline {
+    position: relative;
+    padding-bottom: 2px; }
+  .footer .contact-info .underline:after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #fff;
+    content: ""; }
+
+.pilot-copyright {
+  height: 40px;
+  background-color: #282828; }
+  .pilot-copyright .copyright {
+    padding-top: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 300; }
+
+/* MASTHEAD */
+.masthead {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)), url("../images/boston-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+  padding-top: 200px;
+  overflow: none; }
+  .masthead .masthead-text {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.44); }
+
+.services {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .services .sub-heading {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #335A7F; }
+  .services .services-list {
+    text-align: center; }
+    .services .services-list .service {
+      display: inline-block;
+      width: 23%;
+      font-weight: 300; }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px; }
+
+.list {
+  padding: 0 0 10px 15px;
+  font-style: italics; }
+  .list .list-item {
+    font-weight: 300;
+    font-size: 15px; }
+
+.columns-fifty-fifty {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px; }
+
+.column-margin-right {
+  margin-right: 35px; }
+
+.about-pilot .services {
+  max-width: 750px;
+  margin: 0 auto 10px auto;
+  padding: 10px;
+  border-radius: 3px;
+  background: linear-gradient(50deg, #335A7F, #8EABBE);
+  color: #FFFFFF; }
+  .about-pilot .services .sub-heading.about-page {
+    color: #FFFFFF; }
+.about-pilot .boston-pan {
+  display: block;
+  margin: 10px auto 30px auto; }
+
+.leed-energy .leed {
+  margin-bottom: 15px;
+  padding: 10px;
+  max-width: 400px;
+  background: linear-gradient(50deg, #4AC948, #228B22);
+  color: #FFFFFF; }
+.leed-energy .leed-existing, .leed-energy .energy-water-savings {
+  width: 50%;
+  min-width: 250px;
+  max-width: 350px; }
+.leed-energy .energy-water-savings {
+  margin-right: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #5797CE; }
+.leed-energy .green-building {
+  margin-top: 15px; }
+  .leed-energy .green-building .paragraph {
+    font-size: 12px; }
+
+.development-planning .body-image {
+  display: block;
+  margin: 0 auto; }
+
+.development-management .pilot-project-exp {
+  width: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #5797CE; }
+
+.property-management .properties {
+  margin-top: 10px; }
+  .property-management .properties .property-image {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 350px; }
+
+.capital-programs .examples {
+  max-width: 600px;
+  margin: 15px auto 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #5797CE;
+  color: #FFFFFF; }
+
+.our-team .bio {
+  min-width: 250px;
+  max-width: 350px; }
+.our-team .bio.wide {
+  max-width: 800px; }
+.our-team .hr-bio {
+  height: 4px;
+  margin-bottom: 30px;
+  border: 1px solid #8DAABD;
+  background-color: #8DAABD; }
+
+@media (max-width: 767px) {
+  .columns-fifty-fifty {
+    display: flex;
+    flex-direction: column; }
+
+  .leed-existing, .energy-water-savings {
+    width: 100%; }
+
+  .bio {
+    width: 100%; } }
+
+/*# sourceMappingURL=styles.css.map */
