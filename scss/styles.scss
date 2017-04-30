@@ -27,7 +27,7 @@ $padding-bottom: 10px;
 // Defaults //
 a {
   text-decoration: none;
-  color: #000000;
+  color: $black;
 }
 
 ul {
@@ -125,6 +125,9 @@ hr {
 
 
 /* TOP NAVIGATION */
+.mobile-navigation {
+  display: none;
+}
 
 // Pilot Logo //
 .logo {
@@ -278,7 +281,7 @@ ul li:hover ul {
   background-size: cover;
   height: 100vh;
   max-width: 100%;
-  padding-top: 200px;
+  padding-top: 10em;
   overflow: none;
   .masthead-text {
     max-width: 600px;
@@ -404,7 +407,7 @@ ul li:hover ul {
     margin-top: 10px;
     .property-image {
       display: block;
-      margin: 0 auto;
+      margin: 0 auto 5px auto;
       height: auto;
       max-width: 350px;
     }
@@ -440,6 +443,37 @@ ul li:hover ul {
 
 // Media query //
 @media (max-width:767px) {
+  .sub-logo {font-size: 18px;}
+  .mobile-navigation {
+    display: block;
+    li {
+      width: 100%;
+      a {
+        background-color: $theme-color;
+        padding: 5px;
+        border-radius: 3px;
+        color: $white;
+      }
+    }
+  }
+
+  .desktop-navigation {
+    display: none;
+  }
+
+  .masthead {
+    padding-top: 6em;
+  }
+
+  .services-list.mobile-list {
+    max-width: 130px;
+    margin: 0 auto;
+    text-align: left;
+    .service {
+      width: 100%;
+    }
+  }
+
   .columns-fifty-fifty {
     display: flex;
     flex-direction: column;
