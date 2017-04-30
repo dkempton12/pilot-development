@@ -74,6 +74,13 @@ hr {
   .main-container .side-list {
     margin-top: 5em;
     padding-right: 50px; }
+    .main-container .side-list .sub-sub-heading {
+      padding-bottom: 5px; }
+    .main-container .side-list .sub-sub-heading.leed-energy {
+      padding: 4px;
+      border-radius: 3px;
+      background-color: #228B22;
+      color: #FFFFFF; }
 
 .container {
   max-width: 800px;
@@ -221,10 +228,11 @@ ul li:hover ul {
   padding-bottom: 30px; }
   .services .sub-heading {
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     color: #335A7F; }
   .services .services-list {
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 10px; }
     .services .services-list .service {
       display: inline-block;
       width: 23%;
@@ -324,6 +332,9 @@ ul li:hover ul {
   .columns-fifty-fifty {
     display: flex;
     flex-direction: column; }
+
+  .side-list {
+    display: none; }
 
   .leed-existing,
   .energy-water-savings {
