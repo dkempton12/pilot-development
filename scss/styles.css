@@ -355,6 +355,9 @@ ul li:hover ul {
     .services-list.mobile-list .service {
       width: 100%; }
 
+  .about-pilot .boston-pan {
+    display: none; }
+
   .columns-fifty-fifty {
     display: flex;
     flex-direction: column; }
@@ -365,6 +368,12 @@ ul li:hover ul {
   .leed-existing,
   .energy-water-savings {
     width: 100%; }
+
+  .development-equation {
+    display: none; }
+
+  .properties .property-image {
+    width: 250px; }
 
   .bio {
     width: 100%; } }

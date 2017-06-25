@@ -471,6 +471,12 @@ ul li:hover ul {
     }
   }
 
+  .about-pilot {
+    .boston-pan {
+      display: none;
+    }
+  }
+
   .columns-fifty-fifty {
     display: flex;
     flex-direction: column;
@@ -482,6 +488,14 @@ ul li:hover ul {
   .energy-water-savings {
     width: 100%;
   }
+  .development-equation {
+    display: none;
+  }
+  .properties {
+  .property-image {
+    width: 250px;
+  }
+}
   .bio {
     width: 100%;
   }
