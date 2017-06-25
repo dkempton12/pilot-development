@@ -448,11 +448,8 @@ ul li:hover ul {
     display: block;
     li {
       width: 100%;
-      a {
-        background-color: $theme-color;
-        padding: 5px;
-        border-radius: 3px;
-        color: $white;
+      :hover {
+        color: $theme-color;
       }
     }
   }

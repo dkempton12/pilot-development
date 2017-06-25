@@ -339,11 +339,8 @@ ul li:hover ul {
     display: block; }
     .mobile-navigation li {
       width: 100%; }
-      .mobile-navigation li a {
-        background-color: #335A7F;
-        padding: 5px;
-        border-radius: 3px;
-        color: #FFFFFF; }
+      .mobile-navigation li :hover {
+        color: #335A7F; }
 
   .desktop-navigation {
     display: none; }
